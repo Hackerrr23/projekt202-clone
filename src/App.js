@@ -1,10 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+
+//files
+import Landing from './Landing/Landing'
 
 function App() {
   return (
     <div className="App">
+      <Landing />
     </div>
   );
 }
