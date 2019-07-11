@@ -1,8 +1,8 @@
-import React from 'react';
-import './App.scss';
+import React from "react";
+import "./App.scss";
 
 //files
-import Landing from './Landing/Landing'
+import Landing from "./components/Landing/Landing";
 
 function App() {
   return (
