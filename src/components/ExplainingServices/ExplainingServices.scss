@@ -1,0 +1,31 @@
+$orange: #f16522;
+$main-font: "Teko", sans-serif;
+.explaining {
+  width: 60vw;
+  margin: 0 auto;
+}
+.explaining h1,
+.explaining-para p {
+  font-family: $main-font;
+}
+.explaining h1 {
+  font-size: 42px;
+  font-weight: 300;
+  line-height: 50.4px;
+  letter-spacing: 2px;
+  margin-top: 107px;
+}
+.orange {
+  color: $orange;
+}
+.explain-para {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 2vh;
+}
+.explain-para p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 25.6px;
+}

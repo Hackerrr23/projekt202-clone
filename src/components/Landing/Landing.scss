@@ -55,6 +55,7 @@ main {
   margin: 0 auto;
   color: #ffffff;
   margin-top: 50px;
+  font-family: $main-font;
 }
 .color-overlay {
   width: 100%;
@@ -80,6 +81,8 @@ main {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  font-family: $main-font;
+  letter-spacing: 3px;
 }
 #middle {
   width: 70%;
