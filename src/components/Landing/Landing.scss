@@ -26,9 +26,10 @@ header {
     }
   }
 }
-$main-font: "Teko", sans-serif;
+$main-font: "Rajdhani", sans-serif;
 #site-desc,
 #services,
+#logo,
 li {
   z-index: 1;
 }
@@ -65,12 +66,15 @@ main {
   position: absolute;
 }
 #site-desc {
-  font-size: 76px;
-  font-weight: 300;
+  font-size: 300%;
+  // font-weight: 300;
   line-height: 73.7px;
   font-family: $main-font;
   margin: 0;
   z-index: 2;
+}
+strong {
+  width: 100%;
 }
 #services {
   width: 70%;

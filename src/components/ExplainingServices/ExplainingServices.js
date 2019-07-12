@@ -1,5 +1,9 @@
 import React from "react";
 import "./ExplainingServices.scss";
+import Service_0 from "../../images/service-1.png";
+import Service_1 from "../../images/service-2.png";
+import Service_2 from "../../images/service-3.png";
+import Service_3 from "../../images/service-4.png";
 export default function ExplainingServices() {
   return (
     <div>
@@ -32,6 +36,24 @@ export default function ExplainingServices() {
             disrupt your industry? Look no further than projekt202 for today's
             experience-driven transformation opportunities.
           </p>
+        </div>
+      </div>
+      <div className="main-servicers">
+        <div className="projekt-servicers">
+          <img src={Service_0} />
+          <div className="service-1" />
+        </div>
+        <div className="projekt-servicers">
+          <img src={Service_1} />
+          <div className="service-2" />
+        </div>
+        <div className="projekt-servicers">
+          <img src={Service_2} />
+          <div className="service-3" />
+        </div>
+        <div className="projekt-servicers">
+          <img src={Service_3} />
+          <div className="service-4" />
         </div>
       </div>
     </div>
