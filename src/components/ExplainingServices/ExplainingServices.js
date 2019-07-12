@@ -39,20 +39,50 @@ export default function ExplainingServices() {
         </div>
       </div>
       <div className="main-servicers">
+        {/* <div className="projekt-servicers">
+          <img src={Service_0} />
+          <h3>Strategy & Insight</h3>
+          <p>
+            Understand customer and user needs to strategically propel your
+            business forward and deliver on the promise of your brand
+          </p>
+          <div className="service-1" />
+        </div> */}
         <div className="projekt-servicers">
           <img src={Service_0} />
-          <div className="service-1" />
+          <h3>Strategy % insights</h3>
+          <p>
+            Understand customer and user needs to strategically propel your
+            business forward and deliver on the promise of your brand
+          </p>
+          <div className="service-2" />
         </div>
         <div className="projekt-servicers">
           <img src={Service_1} />
+          <h3>User Experiece Design</h3>
+          <p>
+            Design visually appealing, innovative and intuitive experiences
+            across mobile and desktop that are in line with brand standards
+          </p>
           <div className="service-2" />
         </div>
         <div className="projekt-servicers">
           <img src={Service_2} />
+          <h3>Software Development</h3>
+          <p>
+            Using the tech behind experience-driven transformations, we build
+            large, complex systems with blended teams that increase velocity
+          </p>
           <div className="service-3" />
         </div>
         <div className="projekt-servicers">
           <img src={Service_3} />
+          <h3>Marketing & Analytics</h3>
+          <p>
+            Our expert team makes sense of massive amounts of customer data and
+            insights to help your team drive new business channels
+          </p>
+
           <div className="service-4" />
         </div>
       </div>

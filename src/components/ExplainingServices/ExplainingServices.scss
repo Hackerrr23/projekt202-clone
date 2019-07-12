@@ -54,3 +54,26 @@ $main-font: "Teko", sans-serif;
   flex-direction: column;
   // width: 25%;
 }
+.projekt-servicers img {
+  object-fit: contain;
+}
+.projekt-servicers h3 {
+  font-family: $main-font;
+}
+.projekt-servicers p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 25.6px;
+}
+.projekt-servicers h3 {
+  color: #11435f;
+  font-size: 18px;
+  letter-spacing: 4px;
+  line-height: 23.4px;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  word-spacing: 0px;
+  text-align: center;
+  font-weight: 150;
+}
